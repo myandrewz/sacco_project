@@ -86,7 +86,7 @@ require('functions.php')
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="panel these-icons">
-                                                    <div class="header-number">5</div>
+                                                    <div class="header-number"><?php echo $totalMembers;?></div>
                                                     <div class="header">Active Members</div>
 
                                                 </div>
@@ -108,7 +108,7 @@ require('functions.php')
                                             <div class="col-md-12">
                                                 <div class="panel these-icons">
                                                     <div class="header-number">2,000,000</div>
-                                                    <div class="header">Profits earned</div>
+                                                    <div class="header">Total Conributions</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -158,7 +158,7 @@ require('functions.php')
                                                     echo "<tr>
                                                         <td>" . $row["fullname"] . "</td>
                                                         <td>" . $row["username"] . " </td>
-                                                         <td>". $row["password"] . "</td>
+                                                         <td>" . $row["password"] . "</td>
                                                          </tr>";
                                                 }
                                                 ?>
@@ -252,47 +252,26 @@ require('functions.php')
                                             <table class="table table-hover">
                                                 <thead>
                                                 <tr>
-                                                    <th>#</th>
-                                                    <th>First Name</th>
-                                                    <th>Last Name</th>
+                                                    <th>Member</th>
+                                                    <th>Contribution</th>
                                                     <th>status</th>
-                                                    <th>Amount</th>
                                                     <th>Action</th>
                                                 </tr>
                                                 </thead>
                                                 <tbody>
-                                                <tr>
-                                                    <td>1</td>
-                                                    <td>Mark</td>
-                                                    <td>Otto</td>
-                                                    <td>Pending</td>
-                                                    <td>2,000,000</td>
-                                                    <td><a href="">accept</a>&nbsp;| &nbsp;<a href="">deny</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>2</td>
-                                                    <td>Jacob</td>
-                                                    <td>Thornton</td>
-                                                    <td>Pending</td>
-                                                    <td>4,000,000</td>
-                                                    <td><a href="">accept</a>&nbsp;| &nbsp;<a href="">deny</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>3</td>
-                                                    <td>Larry</td>
-                                                    <td>Kings</td>
-                                                    <td>Pending</td>
-                                                    <td>1,000,000</td>
-                                                    <td><a href="">accept</a>&nbsp;| &nbsp;<a href="">deny</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>4</td>
-                                                    <td>Steve</td>
-                                                    <td>Urkel</td>
-                                                    <td>Success</td>
-                                                    <td>300,000</td>
-                                                    <td><a href="">accept</a>&nbsp;| &nbsp;<a href="">deny</a></td>
-                                                </tr>
+                                                <?php
+                                                while ($row = $contributions->fetch_assoc()) {
+                                                    echo "<tr>
+                                                        <td>" . $row["contributor"] . "</td>
+                                                        <td>" . $row["Amount"] . " </td>
+                                                         <td>" . $row["status"] . "</td>"
+                                                         ?>
+                                                          <td><?php if($row["status"] =='pending'){?><a href="functions.php?action=accept_contribution&id=<?php  echo $row["ID"] ?>">accept</a>&nbsp;| &nbsp;
+                                                              <a href=functions.php?action=deny_contribution&id=<?php  echo $row["ID"] ?>>deny</a><?php } ?></td>
+                                                         </tr>
+                                                    <?php ;
+                                                }
+                                                ?>
                                                 </tbody>
                                             </table>
                                         </div>
@@ -404,7 +383,7 @@ require('functions.php')
                                             </div>
                                         </div>
                                         <div class="panel-content">
-                                            <form role="form" class="form-validation" method="post" id="add_business" >
+                                            <form role="form" class="form-validation" method="post" id="add_business">
                                                 <div class="row">
                                                     <div class="col-sm-6">
                                                         <div class="form-group">
@@ -420,7 +399,8 @@ require('functions.php')
                                                         <div class="form-group">
                                                             <label class="control-label">Date of Investment</label>
                                                             <div class="append-icon">
-                                                                <input type="date" name="dateOfInvestment" class="form-control"
+                                                                <input type="date" name="dateOfInvestment"
+                                                                       class="form-control"
                                                                        minlength="4"
                                                                        placeholder="Minimum 4 characters..." required>
 
@@ -434,7 +414,8 @@ require('functions.php')
                                                             <label class="control-label">Initial investment
                                                                 Price</label>
                                                             <div class="append-icon">
-                                                                <input type="number" name="initialInvestment" class="form-control"
+                                                                <input type="number" name="initialInvestment"
+                                                                       class="form-control"
                                                                        placeholder="price " required>
 
                                                             </div>
@@ -445,7 +426,7 @@ require('functions.php')
                                                             <label class="control-label">Profits percentage</label>
                                                             <div class="append-icon">
                                                                 <input type="number" name="mobile" class="form-control"
-                                                                       placeholder="Profits percentage" >
+                                                                       placeholder="Profits percentage">
 
                                                             </div>
                                                         </div>
@@ -467,7 +448,7 @@ require('functions.php')
                                                             aria-hidden="true">
                                                         ×
                                                     </button>
-                                                    Business idea  added.
+                                                    Business idea added.
                                                 </div>
 
 
@@ -513,13 +494,12 @@ require('functions.php')
                                                     echo "<tr>
                                                         <td>" . $row["idea"] . "</td>
                                                         <td>" . $row["date"] . " </td>
-                                                         <td>". $row["initial"] . "</td>
-                                                          <td>". $row["status"] . "</td>
+                                                         <td>" . $row["initial"] . "</td>
+                                                          <td>" . $row["status"] . "</td>
                                                          <td><a href=\"\">accept</a>&nbsp;| &nbsp;<a href=\"\">deny</a></td>
                                                          </tr>";
                                                 }
                                                 ?>
-
 
 
                                                 </tbody>
