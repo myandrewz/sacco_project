@@ -97,7 +97,7 @@ require('functions.php')
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="panel these-icons">
-                                                    <div class="header-number">5,000,000</div>
+                                                    <div class="header-number"><?php  echo $totalLoanedOut ?></div>
                                                     <div class="header">Amount loaned out in cash</div>
                                                 </div>
                                             </div>
@@ -118,7 +118,6 @@ require('functions.php')
                             <?php
 
                             break;
-
 
                         case'members':
                             ?>
@@ -310,47 +309,27 @@ require('functions.php')
                                             <table class="table table-hover">
                                                 <thead>
                                                 <tr>
-                                                    <th>#</th>
-                                                    <th>First Name</th>
-                                                    <th>Last Name</th>
-                                                    <th>status</th>
+                                                    <th>GIven to</th>
                                                     <th>Amount</th>
+                                                    <th>status</th>
                                                     <th>Action</th>
                                                 </tr>
                                                 </thead>
                                                 <tbody>
-                                                <tr>
-                                                    <td>1</td>
-                                                    <td>Mark</td>
-                                                    <td>Otto</td>
-                                                    <td>Pending</td>
-                                                    <td>2,000,000</td>
-                                                    <td><a href="">accept</a>&nbsp;| &nbsp;<a href="">deny</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>2</td>
-                                                    <td>Jacob</td>
-                                                    <td>Thornton</td>
-                                                    <td>Pending</td>
-                                                    <td>4,000,000</td>
-                                                    <td><a href="">accept</a>&nbsp;| &nbsp;<a href="">deny</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>3</td>
-                                                    <td>Larry</td>
-                                                    <td>Kings</td>
-                                                    <td>Pending</td>
-                                                    <td>1,000,000</td>
-                                                    <td><a href="">accept</a>&nbsp;| &nbsp;<a href="">deny</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>4</td>
-                                                    <td>Steve</td>
-                                                    <td>Urkel</td>
-                                                    <td>Success</td>
-                                                    <td>300,000</td>
-                                                    <td><a href="">accept</a>&nbsp;| &nbsp;<a href="">deny</a></td>
-                                                </tr>
+                                                <?php
+                                                while ($row = $loans->fetch_assoc()) {
+                                                    echo "<tr>
+                                                        <td>" . $row["name"] . "</td>
+                                                        <td>" . $row["amount"] . " </td>
+                                                         <td>" . $row["status"] . "</td>"
+                                                    ?>
+                                                    <td><?php if($row["status"] =='pending'){?>
+                                                            <a  target="_blank" data-id="<?php  echo $row["ID"] ?>" href="functions.php?action=accept_loan_request&id=<?php  echo $row["ID"] ?>">accept</a>&nbsp;| &nbsp;
+                                                        <a  target="_blank" href=functions.php?action=deny_loan_request&id=<?php  echo $row["ID"] ?>>deny</a><?php } ?></td>
+                                                    </tr>
+                                                    <?php ;
+                                                }
+                                                ?>
                                                 </tbody>
                                             </table>
                                         </div>

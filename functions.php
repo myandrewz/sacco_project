@@ -14,6 +14,7 @@ $database = "sacco";
 
 $action = '';
 $contributionsFile = "C:/Users/sam/Desktop/contributions.txt";
+$loansFile = "C:/Users/sam/Desktop/loans.txt";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $database);
@@ -36,7 +37,6 @@ if (isset($_GET['page'])) {
         case'dashboard':
 
             /// get members contributions from the text files
-
             $handle = @fopen($contributionsFile, "r"); //read line one by one
             $values = '';
 
@@ -50,14 +50,18 @@ if (isset($_GET['page'])) {
                 $contributions = $conn->query($sql);
 
             }
+            fclose($handle);
+
 
             // function to get all members
             $sql = "SELECT *  FROM members";
             $members = $conn->query($sql);
             $totalMembers = mysqli_num_rows($members);
-            echo $totalMembers;
 
-
+            // function to get amount loaned out in cash
+            $loansSql = "SELECT SUM(amount) AS TotalItemsOrdered FROM loans where status = 'accepted'";
+            $test1 = mysqli_fetch_array($conn->query($loansSql));
+            $totalLoanedOut = $test1[0];
             break;
 
 
@@ -79,6 +83,33 @@ if (isset($_GET['page'])) {
             // function to get all business ideas
             $ideasSql = "SELECT *  FROM ideas";
             $ideas = $conn->query($ideasSql);
+
+
+            break;
+
+        case 'loans':
+
+            /// get members contributions from the text files
+            $handle = @fopen($loansFile, "r"); //read line one by one
+            $values = '';
+
+            while (!feof($handle)) // Loop til end of file.
+            {
+                $buffer = fgets($handle, 4096); // Read a line.
+                list($name, $amount, $date) = explode("|", $buffer);//Separate string by the means of |
+                $sql = 'INSERT INTO loans (name, amount, PaymentDate, status) VALUES ("' . $name . '","' . $amount . '",
+                "' . $date . '","pending")';
+
+                $contributions = $conn->query($sql);
+
+            }
+            fclose($handle);
+            /// get members loan requests  from the text files
+
+
+            // function to get all business ideas
+            $ideasSql = "SELECT *  FROM loans";
+            $loans = $conn->query($ideasSql);
 
 
             break;
@@ -135,10 +166,10 @@ if (isset($_GET['action'])) {
             $contributionSql = "SELECT *  FROM contributions WHERE  ID =  $contribution_id ";
             $result = $conn->query($contributionSql);
 
-            if(mysqli_num_rows( $result)>0){
+            if (mysqli_num_rows($result) > 0) {
 
 
-                $sql="UPDATE contributions SET status = 'confirmed' WHERE ID =  $contribution_id  ";
+                $sql = "UPDATE contributions SET status = 'confirmed' WHERE ID =  $contribution_id  ";
                 if ($conn->query($sql) === TRUE) {
                     echo "record updated";
                 } else {
@@ -154,10 +185,10 @@ if (isset($_GET['action'])) {
             $contributionSql = "SELECT *  FROM contributions WHERE  ID =  $contribution_id ";
             $result = $conn->query($contributionSql);
 
-            if(mysqli_num_rows( $result)>0){
+            if (mysqli_num_rows($result) > 0) {
 
 
-                $sql=" UPDATE contributions SET status = 'denied' WHERE ID =  $contribution_id  ";
+                $sql = " UPDATE contributions SET status = 'denied' WHERE ID =  $contribution_id  ";
                 if ($conn->query($sql) === TRUE) {
                     echo "record updated";
                 } else {
@@ -173,10 +204,10 @@ if (isset($_GET['action'])) {
             $contributionSql = "SELECT *  FROM ideas WHERE  ID =  $contribution_id ";
             $result = $conn->query($contributionSql);
 
-            if(mysqli_num_rows( $result)>0){
+            if (mysqli_num_rows($result) > 0) {
 
 
-                $sql=" UPDATE ideas SET status = 'accepted' WHERE ID =  $contribution_id  ";
+                $sql = " UPDATE ideas SET status = 'accepted' WHERE ID =  $contribution_id  ";
                 if ($conn->query($sql) === TRUE) {
                     echo "record updated";
                 } else {
@@ -192,10 +223,28 @@ if (isset($_GET['action'])) {
             $contributionSql = "SELECT *  FROM ideas WHERE  ID =  $contribution_id";
             $result = $conn->query($contributionSql);
 
-            if(mysqli_num_rows( $result)>0){
+            if (mysqli_num_rows($result) > 0) {
 
 
-                $sql=" UPDATE ideas  SET status = 'denied' WHERE ID =$contribution_id";
+                $sql = " UPDATE ideas  SET status = 'denied' WHERE ID =$contribution_id";
+                if ($conn->query($sql) === TRUE) {
+                    echo "record updated";
+                } else {
+                    echo $conn->error;
+                }
+            }
+
+            break;
+        case 'accept_loan_request':
+
+            $contribution_id = $_GET['id'];
+            $contributionSql = "SELECT *  FROM loans WHERE  ID =  $contribution_id";
+            $result = $conn->query($contributionSql);
+
+            if (mysqli_num_rows($result) > 0) {
+
+
+                $sql = " UPDATE loans  SET status = 'accepted' WHERE ID =$contribution_id";
                 if ($conn->query($sql) === TRUE) {
                     echo "record updated";
                 } else {
@@ -205,7 +254,24 @@ if (isset($_GET['action'])) {
 
             break;
 
+        case 'deny_loan_request':
 
+            $contribution_id = $_GET['id'];
+            $contributionSql = "SELECT *  FROM ideas WHERE  ID =  $contribution_id";
+            $result = $conn->query($contributionSql);
+
+            if (mysqli_num_rows($result) > 0) {
+
+
+                $sql = " UPDATE loans  SET status = 'denied' WHERE ID =$contribution_id";
+                if ($conn->query($sql) === TRUE) {
+                    echo "record updated";
+                } else {
+                    echo $conn->error;
+                }
+            }
+
+            break;
 
 
     }
