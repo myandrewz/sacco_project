@@ -117,10 +117,10 @@ if (isset($_GET['action'])) {
             echo $_GET['action'];
 
             $business = $_POST['business_idea'];
-            $business = $_POST['dateOfInvestment'];
+            $business_date = $_POST['dateOfInvestment'];
             $initial = $_POST['initialInvestment'];
 
-            $sql = 'INSERT INTO ideas (idea, date, initial,status)VALUES ("' . $business . '","' . $business . '","' . $initial . '","pending")';
+            $sql = 'INSERT INTO ideas (idea, date, initial,status)VALUES ("' . $business . '","' . $business_date . '","' . $initial . '","pending")';
             if ($conn->query($sql) === TRUE) {
                 echo "New record created successfully";
             } else {
@@ -129,6 +129,7 @@ if (isset($_GET['action'])) {
             break;
 
         case 'accept_contribution':
+
 
             $contribution_id = $_GET['id'];
             $contributionSql = "SELECT *  FROM contributions WHERE  ID =  $contribution_id ";
@@ -165,6 +166,46 @@ if (isset($_GET['action'])) {
             }
 
             break;
+
+        case 'accept_business_idea':
+
+            $contribution_id = $_GET['id'];
+            $contributionSql = "SELECT *  FROM ideas WHERE  ID =  $contribution_id ";
+            $result = $conn->query($contributionSql);
+
+            if(mysqli_num_rows( $result)>0){
+
+
+                $sql=" UPDATE ideas SET status = 'accepted' WHERE ID =  $contribution_id  ";
+                if ($conn->query($sql) === TRUE) {
+                    echo "record updated";
+                } else {
+                    echo $conn->error;
+                }
+            }
+
+            break;
+
+        case 'deny_business_idea':
+
+            $contribution_id = $_GET['id'];
+            $contributionSql = "SELECT *  FROM ideas WHERE  ID =  $contribution_id";
+            $result = $conn->query($contributionSql);
+
+            if(mysqli_num_rows( $result)>0){
+
+
+                $sql=" UPDATE ideas  SET status = 'denied' WHERE ID =$contribution_id";
+                if ($conn->query($sql) === TRUE) {
+                    echo "record updated";
+                } else {
+                    echo $conn->error;
+                }
+            }
+
+            break;
+
+
 
 
     }

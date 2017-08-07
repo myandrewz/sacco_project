@@ -266,8 +266,9 @@ require('functions.php')
                                                         <td>" . $row["Amount"] . " </td>
                                                          <td>" . $row["status"] . "</td>"
                                                          ?>
-                                                          <td><?php if($row["status"] =='pending'){?><a href="functions.php?action=accept_contribution&id=<?php  echo $row["ID"] ?>">accept</a>&nbsp;| &nbsp;
-                                                              <a href=functions.php?action=deny_contribution&id=<?php  echo $row["ID"] ?>>deny</a><?php } ?></td>
+                                                          <td><?php if($row["status"] =='pending'){?>
+                                                                  <a  target="_blank" data-id="<?php  echo $row["ID"] ?>" href="functions.php?action=accept_contribution&id=<?php  echo $row["ID"] ?>">accept</a>&nbsp;| &nbsp;
+                                                              <a  target="_blank" href=functions.php?action=deny_contribution&id=<?php  echo $row["ID"] ?>>deny</a><?php } ?></td>
                                                          </tr>
                                                     <?php ;
                                                 }
@@ -495,9 +496,15 @@ require('functions.php')
                                                         <td>" . $row["idea"] . "</td>
                                                         <td>" . $row["date"] . " </td>
                                                          <td>" . $row["initial"] . "</td>
-                                                          <td>" . $row["status"] . "</td>
-                                                         <td><a href=\"\">accept</a>&nbsp;| &nbsp;<a href=\"\">deny</a></td>
-                                                         </tr>";
+                                                          <td>" . $row["status"] . "</td>"?>
+
+
+                                                         <td><?php if($row["status"] =='pending'){?>
+                                                             <a  target="_blank " href="functions.php?action=accept_business_idea&id=<?php  echo $row["ID"] ?>">accept</a>&nbsp;| &nbsp;
+                                                             <a target="_blank " href="functions.php?action=deny_business_idea&id=<?php  echo $row["ID"] ?>">deny</a>
+                                                         <?php }?></td>
+                                                         </tr>
+                                                <?php ;
                                                 }
                                                 ?>
 
@@ -594,6 +601,7 @@ require('functions.php')
 <script>
     $(function () {
 
+
         $('#add_user').on('submit', function (e) {
 
             e.preventDefault();
@@ -629,6 +637,29 @@ require('functions.php')
             });
 
         });
+
+        $('#accept_contribution').on('click', function (e) {
+
+
+
+            e.preventDefault();
+            var id = $(this).attr('data-id');
+            console.log('functions.php?action=accept_contribution$id='+id)
+
+            $('.loader').css('display', 'block');
+            $.ajax({
+                type: 'get',
+                url: 'functions.php?action=accept_contribution$id='+id,
+
+                success: function (response) {
+                    $('.loader').css('display', 'none');
+                    $('.alert').css('display', 'block');
+                    console.log(response)
+                }
+            });
+
+        });
+
 
     });
 </script>
