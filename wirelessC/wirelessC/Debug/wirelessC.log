@@ -1,0 +1,30 @@
+﻿  clientWire.cpp
+c:\users\danny_heys\desktop\wireless\wirelessc\wirelessc\clientwire.cpp(77): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+c:\users\danny_heys\desktop\wireless\wirelessc\wirelessc\clientwire.cpp(79): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+c:\users\danny_heys\desktop\wireless\wirelessc\wirelessc\clientwire.cpp(222): warning C4133: 'function' : incompatible types - from 'char [1024]' to 'LPWSTR'
+c:\users\danny_heys\desktop\wireless\wirelessc\wirelessc\clientwire.cpp(222): warning C4133: 'function' : incompatible types - from 'char [100]' to 'LPCWSTR'
+c:\users\danny_heys\desktop\wireless\wirelessc\wirelessc\clientwire.cpp(264): warning C4020: 'separate' : too many actual parameters
+c:\users\danny_heys\desktop\wireless\wirelessc\wirelessc\clientwire.cpp(265): warning C4129: ' ' : unrecognized character escape sequence
+c:\users\danny_heys\desktop\wireless\wirelessc\wirelessc\clientwire.cpp(265): warning C4129: ' ' : unrecognized character escape sequence
+c:\users\danny_heys\desktop\wireless\wirelessc\wirelessc\clientwire.cpp(278): warning C4020: 'separate' : too many actual parameters
+c:\users\danny_heys\desktop\wireless\wirelessc\wirelessc\clientwire.cpp(279): warning C4129: ' ' : unrecognized character escape sequence
+c:\users\danny_heys\desktop\wireless\wirelessc\wirelessc\clientwire.cpp(279): warning C4129: ' ' : unrecognized character escape sequence
+c:\users\danny_heys\desktop\wireless\wirelessc\wirelessc\clientwire.cpp(339): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(277) : see declaration of 'gets'
+c:\users\danny_heys\desktop\wireless\wirelessc\wirelessc\clientwire.cpp(344): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+c:\users\danny_heys\desktop\wireless\wirelessc\wirelessc\clientwire.cpp(352): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(277) : see declaration of 'gets'
+c:\users\danny_heys\desktop\wireless\wirelessc\wirelessc\clientwire.cpp(390): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+c:\users\danny_heys\desktop\wireless\wirelessc\wirelessc\clientwire.cpp(392): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+c:\users\danny_heys\desktop\wireless\wirelessc\wirelessc\clientwire.cpp(399): warning C4029: declared formal parameter list different from definition
+c:\users\danny_heys\desktop\wireless\wirelessc\wirelessc\clientwire.cpp(402): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+c:\users\danny_heys\desktop\wireless\wirelessc\wirelessc\clientwire.cpp(407): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+c:\users\danny_heys\desktop\wireless\wirelessc\wirelessc\clientwire.cpp(416): warning C4716: 'separate' : must return a value
+  wirelessC.vcxproj -> C:\Users\danny_heys\Desktop\WIRELESS\wirelessC\Debug\wirelessC.exe

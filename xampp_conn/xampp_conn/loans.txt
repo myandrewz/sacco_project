@@ -1,0 +1,27 @@
+loan request 50000 |name|
+loan request 60000 |daniel heys|
+loan request 50000 |daniel heys|
+loan request 900000 |daniel heys|
+loan request 6000 |daniel heys|
+loan request 6900 |daniel heys|
+loan request 654000 |daniel heys|
+loan request 6000 |danny heys|
+loan request 6000 |danny heys|
+loan request 6000 |danny heys|
+loan request 45000 |Denis Williams|
+loan request |daniel heys|
+loan request 6788400 |daniel heys|
+loan request 70000 |Bruce Gemma|
+loan request 67000 |Bruce Gemma|
+loan request 60000 |Bruce Gemma|
+loan request 70000 |Bruce Gemma|
+loan request 80000 |Bruce Gemma|
+loan request 578384 |Bruce_Gemma|
+loan request 5000 8 |Bruce_Gemma|
+loan repayment 6000 |Bruce_Gemma|
+loan request 600000 |Bruce_Gemma|
+loan request 5000 6 |Bruce_Gemma|
+loan repayment details |Emmanuel_Otai|
+loan request 50000 |Emmanuel_Otai|
+loan repayment 40000 |Emmanuel_Otai|
+loan request 56000 |Emmanuel_Otai|

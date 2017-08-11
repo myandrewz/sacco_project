@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23cd1726-2473-4942-88ca-94f59fad35d7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles.css" afterPath="$PROJECT_DIR$/styles.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,86 +20,105 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="317" column="55" lean-forward="true" selection-start-line="317" selection-start-column="55" selection-end-line="317" selection-end-column="55" />
+            <state relative-caret-position="2134">
+              <caret line="193" column="0" lean-forward="false" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
               <folding>
                 <element signature="e#6#85#0#PHP" expanded="true" />
-                <element signature="e#2265#4772#0#PHP" expanded="false" />
-                <element signature="e#4798#11645#0#PHP" expanded="false" />
-                <element signature="n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#19002#19008#0#HTML" expanded="true" />
-                <element signature="e#19010#19016#0#HTML" expanded="true" />
-                <element signature="e#19777#30447#0#PHP" expanded="false" />
-                <element signature="e#30473#35402#0#PHP" expanded="false" />
-                <marker date="1502111946533" expanded="true" signature="7297:7545" ph="..." />
-                <marker date="1502111946533" expanded="true" signature="7297:7632" ph="..." />
-                <marker date="1502111946533" expanded="true" signature="14320:14564" ph="..." />
-                <marker date="1502111946533" expanded="true" signature="14320:14591" ph="..." />
-                <marker date="1502111946533" expanded="true" signature="14320:14882" ph="..." />
-                <marker date="1502111946533" expanded="true" signature="14320:14884" ph="..." />
-                <marker date="1502111946533" expanded="true" signature="14320:15220" ph="..." />
-                <marker date="1502111946533" expanded="true" signature="14965:14971" ph=" " />
-                <marker date="1502111946533" expanded="true" signature="14973:14979" ph=" " />
-                <marker date="1502111946533" expanded="true" signature="18381:18645" ph="..." />
-                <marker date="1502111946533" expanded="true" signature="28956:29309" ph="..." />
-                <marker date="1502111946533" expanded="true" signature="28956:29901" ph="..." />
-                <marker date="1502111946533" expanded="true" signature="29587:29593" ph=" " />
-                <marker date="1502111946533" expanded="true" signature="29595:29601" ph=" " />
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#10855#18492#0#PHP" expanded="false" />
+                <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#22598#26598#0#PHP" expanded="false" />
+                <element signature="n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#26624#37616#0#PHP" expanded="false" />
+                <element signature="n#div#0;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <marker date="1502350461219" expanded="true" signature="13430:13678" ph="..." />
+                <marker date="1502350461219" expanded="true" signature="13430:13861" ph="..." />
+                <marker date="1502350461219" expanded="true" signature="21167:21411" ph="..." />
+                <marker date="1502350461219" expanded="true" signature="21167:21438" ph="..." />
+                <marker date="1502350461219" expanded="true" signature="25228:25492" ph="..." />
+                <marker date="1502350461219" expanded="true" signature="35943:36478" ph="..." />
+                <marker date="1502350461219" expanded="true" signature="39228:39324" ph="..." />
+                <marker date="1502350461219" expanded="true" signature="43246:43510" ph="..." />
+                <marker date="1502350461219" expanded="true" signature="46800:47071" ph="..." />
+                <marker date="1502350461219" expanded="true" signature="50882:51146" ph="..." />
+                <marker date="1502350461219" expanded="true" signature="54433:54704" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="256" column="15" lean-forward="false" selection-start-line="256" selection-start-column="15" selection-end-line="256" selection-end-column="31" />
+            <state relative-caret-position="480">
+              <caret line="193" column="52" lean-forward="true" selection-start-line="193" selection-start-column="52" selection-end-line="193" selection-end-column="52" />
               <folding>
-                <element signature="e#6#85#0#PHP" expanded="true" />
-                <marker date="1502111946298" expanded="true" signature="1101:1283" ph="INSERT INTO contributions... " />
-                <marker date="1502111946298" expanded="true" signature="1449:1471" ph="SELECT * FRO... members" />
-                <marker date="1502111946298" expanded="true" signature="1655:1731" ph="SELECT * FRO... loans" />
-                <marker date="1502111946298" expanded="true" signature="1968:1996" ph="SELECT * FRO... contributions" />
-                <marker date="1502111946298" expanded="true" signature="2168:2190" ph="SELECT * FRO... members" />
-                <marker date="1502111946298" expanded="true" signature="2360:2380" ph="SELECT * FRO... ideas" />
-                <marker date="1502111946298" expanded="true" signature="2899:3038" ph="INSERT INTO loans... " />
-                <marker date="1502111946298" expanded="true" signature="3279:3294" ph="SELECT * FRO... ideas" />
-                <marker date="1502111946298" expanded="true" signature="3279:3299" ph="SELECT * FRO... loans" />
-                <marker date="1502111946298" expanded="true" signature="3739:3797" ph="INSERT INTO members... " />
-                <marker date="1502111946298" expanded="true" signature="3739:3816" ph="INSERT INTO members... " />
-                <marker date="1502111946298" expanded="true" signature="3739:3819" ph="INSERT INTO members... " />
-                <marker date="1502111946298" expanded="true" signature="3739:3820" ph="INSERT INTO members... " />
-                <marker date="1502111946298" expanded="true" signature="3739:3839" ph="INSERT INTO members... " />
-                <marker date="1502111946298" expanded="true" signature="3739:3858" ph="INSERT INTO members... " />
-                <marker date="1502111946298" expanded="true" signature="4343:4460" ph="INSERT INTO idea... " />
-                <marker date="1502111946298" expanded="true" signature="4343:4462" ph="INSERT INTO idea... " />
-                <marker date="1502111946298" expanded="true" signature="4343:4469" ph="INSERT INTO idea... " />
-                <marker date="1502111946298" expanded="true" signature="4343:4471" ph="INSERT INTO idea... " />
-                <marker date="1502111946298" expanded="true" signature="4781:4821" ph="SELECT * FRO... contributions" />
-                <marker date="1502111946298" expanded="true" signature="4781:4823" ph="SELECT * FRO... contributions" />
-                <marker date="1502111946298" expanded="true" signature="4972:5024" ph="UPDATE table... " />
-                <marker date="1502111946298" expanded="true" signature="4972:5030" ph="UPDATE contr... " />
-                <marker date="1502111946298" expanded="true" signature="5373:5415" ph="SELECT * FRO... contributions" />
-                <marker date="1502111946298" expanded="true" signature="5565:5620" ph="UPDATE contr... " />
-                <marker date="1502111946298" expanded="true" signature="5966:6000" ph="SELECT * FRO... contributions" />
-                <marker date="1502111946298" expanded="true" signature="6150:6199" ph="UPDATE contr... " />
-                <marker date="1502111946298" expanded="true" signature="6543:6577" ph="SELECT * FRO... contributions" />
-                <marker date="1502111946298" expanded="true" signature="6726:6772" ph="UPDATE contr... " />
-                <marker date="1502111946298" expanded="true" signature="7114:7148" ph="SELECT * FRO... ideas" />
-                <marker date="1502111946298" expanded="true" signature="7297:7345" ph="UPDATE loans... " />
-                <marker date="1502111946298" expanded="true" signature="7686:7720" ph="SELECT * FRO... ideas" />
-                <marker date="1502111946298" expanded="true" signature="7869:7915" ph="UPDATE ideas... " />
+                <marker date="1502353665038" expanded="true" signature="621:707" ph="SELECT SUM(a... contributions" />
+                <marker date="1502353665038" expanded="true" signature="846:868" ph="SELECT * FRO... members" />
+                <marker date="1502353665038" expanded="true" signature="964:1011" ph="SELECT MAX(s... members" />
+                <marker date="1502353665038" expanded="true" signature="1423:1443" ph="SELECT * FRO... loans" />
+                <marker date="1502353665038" expanded="true" signature="1423:1467" ph="SELECT * FRO... loans" />
+                <marker date="1502353665038" expanded="true" signature="1635:1678" ph="SELECT * FRO... loans" />
+                <marker date="1502353665038" expanded="true" signature="1838:1866" ph="SELECT * FRO... contributions" />
+                <marker date="1502353665038" expanded="true" signature="1838:1890" ph="SELECT * FRO... contributions" />
+                <marker date="1502353665038" expanded="true" signature="2086:2137" ph="SELECT * FRO... contributions" />
+                <marker date="1502353665038" expanded="true" signature="2337:2382" ph="SELECT * FRO... loans" />
+                <marker date="1502353665038" expanded="true" signature="2555:2609" ph="SELECT * FRO... contributions" />
+                <marker date="1502353665038" expanded="true" signature="2811:2855" ph="SELECT * FRO... contributions" />
+                <marker date="1502353665038" expanded="true" signature="3017:3062" ph="SELECT * FRO... ideas" />
+                <marker date="1502353665038" expanded="true" signature="3950:4162" ph="INSERT INTO contributions... " />
+                <marker date="1502353665038" expanded="true" signature="4491:4567" ph="SELECT * FRO... loans" />
+                <marker date="1502353665038" expanded="true" signature="4764:4850" ph="SELECT SUM(a... loans" />
+                <marker date="1502353665038" expanded="true" signature="5100:5128" ph="SELECT * FRO... contributions" />
+                <marker date="1502353665038" expanded="true" signature="5300:5322" ph="SELECT * FRO... members" />
+                <marker date="1502353665038" expanded="true" signature="6170:6540" ph="INSERT INTO ideas... " />
+                <marker date="1502353665038" expanded="true" signature="6847:6867" ph="SELECT * FRO... ideas" />
+                <marker date="1502353665038" expanded="true" signature="7553:7714" ph="INSERT INTO loans... " />
+                <marker date="1502353665038" expanded="true" signature="8030:8045" ph="SELECT * FRO... ideas" />
+                <marker date="1502353665038" expanded="true" signature="8030:8050" ph="SELECT * FRO... loans" />
+                <marker date="1502353665038" expanded="true" signature="8208:8230" ph="SELECT * FRO... members" />
+                <marker date="1502353665038" expanded="true" signature="8680:8752" ph="INSERT INTO members... " />
+                <marker date="1502353665038" expanded="true" signature="8680:8796" ph="INSERT INTO members... " />
+                <marker date="1502353665038" expanded="true" signature="8680:8824" ph="INSERT INTO members... " />
+                <marker date="1502353665038" expanded="true" signature="8680:8825" ph="INSERT INTO members... " />
+                <marker date="1502353665038" expanded="true" signature="8680:8843" ph="INSERT INTO members... " />
+                <marker date="1502353665038" expanded="true" signature="8680:8869" ph="INSERT INTO members... " />
+                <marker date="1502353665038" expanded="true" signature="8680:8887" ph="INSERT INTO members... " />
+                <marker date="1502353665038" expanded="true" signature="8680:8888" ph="INSERT INTO members... " />
+                <marker date="1502353665038" expanded="true" signature="8680:8925" ph="INSERT INTO members... " />
+                <marker date="1502353665038" expanded="true" signature="8680:8927" ph="INSERT INTO members... " />
+                <marker date="1502353665038" expanded="true" signature="8680:8931" ph="INSERT INTO members... " />
+                <marker date="1502353665038" expanded="true" signature="9547:9674" ph="INSERT INTO ideas... " />
+                <marker date="1502353665038" expanded="true" signature="10012:10140" ph="INSERT INTO ideas... " />
+                <marker date="1502353665038" expanded="true" signature="10489:10529" ph="SELECT * FRO... contributions" />
+                <marker date="1502353665038" expanded="true" signature="10489:10531" ph="SELECT * FRO... contributions" />
+                <marker date="1502353665038" expanded="true" signature="10680:10732" ph="UPDATE table... " />
+                <marker date="1502353665038" expanded="true" signature="10680:10738" ph="UPDATE contr... " />
+                <marker date="1502353665038" expanded="true" signature="11081:11123" ph="SELECT * FRO... contributions" />
+                <marker date="1502353665038" expanded="true" signature="11273:11328" ph="UPDATE contr... " />
+                <marker date="1502353665038" expanded="true" signature="11674:11708" ph="SELECT * FRO... contributions" />
+                <marker date="1502353665038" expanded="true" signature="11858:11907" ph="UPDATE contr... " />
+                <marker date="1502353665038" expanded="true" signature="12251:12285" ph="SELECT * FRO... contributions" />
+                <marker date="1502353665038" expanded="true" signature="12434:12480" ph="UPDATE contr... " />
+                <marker date="1502353665038" expanded="true" signature="12822:12856" ph="SELECT * FRO... ideas" />
+                <marker date="1502353665038" expanded="true" signature="13005:13053" ph="UPDATE loans... " />
+                <marker date="1502353665038" expanded="true" signature="13394:13428" ph="SELECT * FRO... ideas" />
+                <marker date="1502353665038" expanded="true" signature="13577:13623" ph="UPDATE ideas... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1452">
-              <caret line="66" column="1" lean-forward="false" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+            <state relative-caret-position="157">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -105,15 +126,21 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>add_business</find>
+      <find>add_user</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/styles.css" />
-        <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/functions.php" />
+        <option value="$PROJECT_DIR$/styles.css" />
       </list>
     </option>
   </component>
@@ -126,9 +153,8 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1098" />
+    <option name="width" value="1924" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -145,7 +171,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -160,7 +186,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -259,19 +285,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
+    <frame x="-9" y="0" width="1924" height="1084" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25349087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27218616" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -313,31 +339,538 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8250">
+          <caret line="375" column="104" lean-forward="false" selection-start-line="375" selection-start-column="104" selection-end-line="375" selection-end-column="116" />
+          <folding>
+            <element signature="e#6#85#0#PHP" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#10855#18492#0#PHP" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#22598#26598#0#PHP" expanded="false" />
+            <element signature="n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#26624#37616#0#PHP" expanded="false" />
+            <element signature="n#div#0;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1502350461219" expanded="true" signature="13430:13678" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="13430:13861" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="21167:21411" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="21167:21438" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="25228:25492" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="35943:36478" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="39228:39324" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="43246:43510" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="46800:47071" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="50882:51146" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="54433:54704" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1452">
+          <caret line="66" column="1" lean-forward="false" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5368">
+          <caret line="244" column="13" lean-forward="false" selection-start-line="244" selection-start-column="13" selection-end-line="244" selection-end-column="13" />
+          <folding>
+            <marker date="1502353665038" expanded="true" signature="621:707" ph="SELECT SUM(a... contributions" />
+            <marker date="1502353665038" expanded="true" signature="846:868" ph="SELECT * FRO... members" />
+            <marker date="1502353665038" expanded="true" signature="964:1011" ph="SELECT MAX(s... members" />
+            <marker date="1502353665038" expanded="true" signature="1423:1443" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="1423:1467" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="1635:1678" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="1838:1866" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="1838:1890" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="2086:2137" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="2337:2382" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="2555:2609" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="2811:2855" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="3017:3062" ph="SELECT * FRO... ideas" />
+            <marker date="1502353665038" expanded="true" signature="3950:4162" ph="INSERT INTO contributions... " />
+            <marker date="1502353665038" expanded="true" signature="4491:4567" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="4764:4850" ph="SELECT SUM(a... loans" />
+            <marker date="1502353665038" expanded="true" signature="5100:5128" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="5300:5322" ph="SELECT * FRO... members" />
+            <marker date="1502353665038" expanded="true" signature="6170:6540" ph="INSERT INTO ideas... " />
+            <marker date="1502353665038" expanded="true" signature="6847:6867" ph="SELECT * FRO... ideas" />
+            <marker date="1502353665038" expanded="true" signature="7553:7714" ph="INSERT INTO loans... " />
+            <marker date="1502353665038" expanded="true" signature="8030:8045" ph="SELECT * FRO... ideas" />
+            <marker date="1502353665038" expanded="true" signature="8030:8050" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="8208:8230" ph="SELECT * FRO... members" />
+            <marker date="1502353665038" expanded="true" signature="8680:8752" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8796" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8824" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8825" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8843" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8869" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8887" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8888" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8925" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8927" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8931" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="9547:9674" ph="INSERT INTO ideas... " />
+            <marker date="1502353665038" expanded="true" signature="10012:10140" ph="INSERT INTO ideas... " />
+            <marker date="1502353665038" expanded="true" signature="10489:10529" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="10489:10531" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="10680:10732" ph="UPDATE table... " />
+            <marker date="1502353665038" expanded="true" signature="10680:10738" ph="UPDATE contr... " />
+            <marker date="1502353665038" expanded="true" signature="11081:11123" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="11273:11328" ph="UPDATE contr... " />
+            <marker date="1502353665038" expanded="true" signature="11674:11708" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="11858:11907" ph="UPDATE contr... " />
+            <marker date="1502353665038" expanded="true" signature="12251:12285" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="12434:12480" ph="UPDATE contr... " />
+            <marker date="1502353665038" expanded="true" signature="12822:12856" ph="SELECT * FRO... ideas" />
+            <marker date="1502353665038" expanded="true" signature="13005:13053" ph="UPDATE loans... " />
+            <marker date="1502353665038" expanded="true" signature="13394:13428" ph="SELECT * FRO... ideas" />
+            <marker date="1502353665038" expanded="true" signature="13577:13623" ph="UPDATE ideas... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8249">
+          <caret line="375" column="104" lean-forward="false" selection-start-line="375" selection-start-column="104" selection-end-line="375" selection-end-column="116" />
+          <folding>
+            <element signature="e#6#85#0#PHP" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#10855#18492#0#PHP" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#22598#26598#0#PHP" expanded="false" />
+            <element signature="n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#26624#37616#0#PHP" expanded="false" />
+            <element signature="n#div#0;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1502350461219" expanded="true" signature="13430:13678" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="13430:13861" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="21167:21411" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="21167:21438" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="25228:25492" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="35943:36478" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="39228:39324" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="43246:43510" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="46800:47071" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="50882:51146" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="54433:54704" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1452">
+          <caret line="66" column="1" lean-forward="false" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5368">
+          <caret line="244" column="13" lean-forward="true" selection-start-line="244" selection-start-column="13" selection-end-line="244" selection-end-column="13" />
+          <folding>
+            <marker date="1502353665038" expanded="true" signature="621:707" ph="SELECT SUM(a... contributions" />
+            <marker date="1502353665038" expanded="true" signature="846:868" ph="SELECT * FRO... members" />
+            <marker date="1502353665038" expanded="true" signature="964:1011" ph="SELECT MAX(s... members" />
+            <marker date="1502353665038" expanded="true" signature="1423:1443" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="1423:1467" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="1635:1678" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="1838:1866" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="1838:1890" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="2086:2137" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="2337:2382" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="2555:2609" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="2811:2855" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="3017:3062" ph="SELECT * FRO... ideas" />
+            <marker date="1502353665038" expanded="true" signature="3950:4162" ph="INSERT INTO contributions... " />
+            <marker date="1502353665038" expanded="true" signature="4491:4567" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="4764:4850" ph="SELECT SUM(a... loans" />
+            <marker date="1502353665038" expanded="true" signature="5100:5128" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="5300:5322" ph="SELECT * FRO... members" />
+            <marker date="1502353665038" expanded="true" signature="6170:6540" ph="INSERT INTO ideas... " />
+            <marker date="1502353665038" expanded="true" signature="6847:6867" ph="SELECT * FRO... ideas" />
+            <marker date="1502353665038" expanded="true" signature="7553:7714" ph="INSERT INTO loans... " />
+            <marker date="1502353665038" expanded="true" signature="8030:8045" ph="SELECT * FRO... ideas" />
+            <marker date="1502353665038" expanded="true" signature="8030:8050" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="8208:8230" ph="SELECT * FRO... members" />
+            <marker date="1502353665038" expanded="true" signature="8680:8752" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8796" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8824" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8825" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8843" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8869" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8887" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8888" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8925" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8927" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8931" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="9547:9674" ph="INSERT INTO ideas... " />
+            <marker date="1502353665038" expanded="true" signature="10012:10140" ph="INSERT INTO ideas... " />
+            <marker date="1502353665038" expanded="true" signature="10489:10529" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="10489:10531" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="10680:10732" ph="UPDATE table... " />
+            <marker date="1502353665038" expanded="true" signature="10680:10738" ph="UPDATE contr... " />
+            <marker date="1502353665038" expanded="true" signature="11081:11123" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="11273:11328" ph="UPDATE contr... " />
+            <marker date="1502353665038" expanded="true" signature="11674:11708" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="11858:11907" ph="UPDATE contr... " />
+            <marker date="1502353665038" expanded="true" signature="12251:12285" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="12434:12480" ph="UPDATE contr... " />
+            <marker date="1502353665038" expanded="true" signature="12822:12856" ph="SELECT * FRO... ideas" />
+            <marker date="1502353665038" expanded="true" signature="13005:13053" ph="UPDATE loans... " />
+            <marker date="1502353665038" expanded="true" signature="13394:13428" ph="SELECT * FRO... ideas" />
+            <marker date="1502353665038" expanded="true" signature="13577:13623" ph="UPDATE ideas... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8250">
+          <caret line="375" column="104" lean-forward="false" selection-start-line="375" selection-start-column="104" selection-end-line="375" selection-end-column="116" />
+          <folding>
+            <element signature="e#6#85#0#PHP" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#10855#18492#0#PHP" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#22598#26598#0#PHP" expanded="false" />
+            <element signature="n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#26624#37616#0#PHP" expanded="false" />
+            <element signature="n#div#0;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1502350461219" expanded="true" signature="13430:13678" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="13430:13861" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="21167:21411" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="21167:21438" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="25228:25492" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="35943:36478" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="39228:39324" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="43246:43510" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="46800:47071" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="50882:51146" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="54433:54704" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1452">
+          <caret line="66" column="1" lean-forward="false" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5082">
+          <caret line="231" column="21" lean-forward="false" selection-start-line="231" selection-start-column="21" selection-end-line="231" selection-end-column="73" />
+          <folding>
+            <marker date="1502353665038" expanded="true" signature="621:707" ph="SELECT SUM(a... contributions" />
+            <marker date="1502353665038" expanded="true" signature="846:868" ph="SELECT * FRO... members" />
+            <marker date="1502353665038" expanded="true" signature="964:1011" ph="SELECT MAX(s... members" />
+            <marker date="1502353665038" expanded="true" signature="1423:1443" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="1423:1467" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="1635:1678" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="1838:1866" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="1838:1890" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="2086:2137" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="2337:2382" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="2555:2609" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="2811:2855" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="3017:3062" ph="SELECT * FRO... ideas" />
+            <marker date="1502353665038" expanded="true" signature="3950:4162" ph="INSERT INTO contributions... " />
+            <marker date="1502353665038" expanded="true" signature="4491:4567" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="4764:4850" ph="SELECT SUM(a... loans" />
+            <marker date="1502353665038" expanded="true" signature="5100:5128" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="5300:5322" ph="SELECT * FRO... members" />
+            <marker date="1502353665038" expanded="true" signature="6170:6540" ph="INSERT INTO ideas... " />
+            <marker date="1502353665038" expanded="true" signature="6847:6867" ph="SELECT * FRO... ideas" />
+            <marker date="1502353665038" expanded="true" signature="7553:7714" ph="INSERT INTO loans... " />
+            <marker date="1502353665038" expanded="true" signature="8030:8045" ph="SELECT * FRO... ideas" />
+            <marker date="1502353665038" expanded="true" signature="8030:8050" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="8208:8230" ph="SELECT * FRO... members" />
+            <marker date="1502353665038" expanded="true" signature="8680:8752" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8796" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8824" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8825" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8843" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8869" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8887" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8888" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8925" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8927" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8931" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="9547:9674" ph="INSERT INTO ideas... " />
+            <marker date="1502353665038" expanded="true" signature="10012:10140" ph="INSERT INTO ideas... " />
+            <marker date="1502353665038" expanded="true" signature="10489:10529" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="10489:10531" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="10680:10732" ph="UPDATE table... " />
+            <marker date="1502353665038" expanded="true" signature="10680:10738" ph="UPDATE contr... " />
+            <marker date="1502353665038" expanded="true" signature="11081:11123" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="11273:11328" ph="UPDATE contr... " />
+            <marker date="1502353665038" expanded="true" signature="11674:11708" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="11858:11907" ph="UPDATE contr... " />
+            <marker date="1502353665038" expanded="true" signature="12251:12285" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="12434:12480" ph="UPDATE contr... " />
+            <marker date="1502353665038" expanded="true" signature="12822:12856" ph="SELECT * FRO... ideas" />
+            <marker date="1502353665038" expanded="true" signature="13005:13053" ph="UPDATE loans... " />
+            <marker date="1502353665038" expanded="true" signature="13394:13428" ph="SELECT * FRO... ideas" />
+            <marker date="1502353665038" expanded="true" signature="13577:13623" ph="UPDATE ideas... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8250">
+          <caret line="375" column="104" lean-forward="true" selection-start-line="375" selection-start-column="104" selection-end-line="375" selection-end-column="116" />
+          <folding>
+            <element signature="e#6#85#0#PHP" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#10855#18492#0#PHP" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#22598#26598#0#PHP" expanded="false" />
+            <element signature="n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#26624#37616#0#PHP" expanded="false" />
+            <element signature="n#div#0;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1502350461219" expanded="true" signature="13430:13678" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="13430:13861" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="21167:21411" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="21167:21438" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="25228:25492" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="35943:36478" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="39228:39324" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="43246:43510" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="46800:47071" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="50882:51146" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="54433:54704" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1452">
+          <caret line="66" column="1" lean-forward="false" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5080">
+          <caret line="231" column="21" lean-forward="true" selection-start-line="231" selection-start-column="21" selection-end-line="231" selection-end-column="73" />
+          <folding>
+            <marker date="1502353665038" expanded="true" signature="621:707" ph="SELECT SUM(a... contributions" />
+            <marker date="1502353665038" expanded="true" signature="846:868" ph="SELECT * FRO... members" />
+            <marker date="1502353665038" expanded="true" signature="964:1011" ph="SELECT MAX(s... members" />
+            <marker date="1502353665038" expanded="true" signature="1423:1443" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="1423:1467" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="1635:1678" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="1838:1866" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="1838:1890" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="2086:2137" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="2337:2382" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="2555:2609" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="2811:2855" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="3017:3062" ph="SELECT * FRO... ideas" />
+            <marker date="1502353665038" expanded="true" signature="3950:4162" ph="INSERT INTO contributions... " />
+            <marker date="1502353665038" expanded="true" signature="4491:4567" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="4764:4850" ph="SELECT SUM(a... loans" />
+            <marker date="1502353665038" expanded="true" signature="5100:5128" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="5300:5322" ph="SELECT * FRO... members" />
+            <marker date="1502353665038" expanded="true" signature="6170:6540" ph="INSERT INTO ideas... " />
+            <marker date="1502353665038" expanded="true" signature="6847:6867" ph="SELECT * FRO... ideas" />
+            <marker date="1502353665038" expanded="true" signature="7553:7714" ph="INSERT INTO loans... " />
+            <marker date="1502353665038" expanded="true" signature="8030:8045" ph="SELECT * FRO... ideas" />
+            <marker date="1502353665038" expanded="true" signature="8030:8050" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="8208:8230" ph="SELECT * FRO... members" />
+            <marker date="1502353665038" expanded="true" signature="8680:8752" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8796" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8824" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8825" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8843" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8869" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8887" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8888" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8925" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8927" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8931" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="9547:9674" ph="INSERT INTO ideas... " />
+            <marker date="1502353665038" expanded="true" signature="10012:10140" ph="INSERT INTO ideas... " />
+            <marker date="1502353665038" expanded="true" signature="10489:10529" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="10489:10531" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="10680:10732" ph="UPDATE table... " />
+            <marker date="1502353665038" expanded="true" signature="10680:10738" ph="UPDATE contr... " />
+            <marker date="1502353665038" expanded="true" signature="11081:11123" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="11273:11328" ph="UPDATE contr... " />
+            <marker date="1502353665038" expanded="true" signature="11674:11708" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="11858:11907" ph="UPDATE contr... " />
+            <marker date="1502353665038" expanded="true" signature="12251:12285" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="12434:12480" ph="UPDATE contr... " />
+            <marker date="1502353665038" expanded="true" signature="12822:12856" ph="SELECT * FRO... ideas" />
+            <marker date="1502353665038" expanded="true" signature="13005:13053" ph="UPDATE loans... " />
+            <marker date="1502353665038" expanded="true" signature="13394:13428" ph="SELECT * FRO... ideas" />
+            <marker date="1502353665038" expanded="true" signature="13577:13623" ph="UPDATE ideas... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6974">
+          <caret line="317" column="55" lean-forward="true" selection-start-line="317" selection-start-column="55" selection-end-line="317" selection-end-column="55" />
+          <folding>
+            <element signature="e#6#85#0#PHP" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#10855#18492#0#PHP" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#22598#26598#0#PHP" expanded="false" />
+            <element signature="n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#26624#37616#0#PHP" expanded="false" />
+            <element signature="n#div#0;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1502350461219" expanded="true" signature="13430:13678" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="13430:13861" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="21167:21411" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="21167:21438" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="25228:25492" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="35943:36478" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="39228:39324" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="43246:43510" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="46800:47071" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="50882:51146" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="54433:54704" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1452">
+          <caret line="66" column="1" lean-forward="false" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5632">
+          <caret line="256" column="15" lean-forward="false" selection-start-line="256" selection-start-column="15" selection-end-line="256" selection-end-column="31" />
+          <folding>
+            <marker date="1502353665038" expanded="true" signature="621:707" ph="SELECT SUM(a... contributions" />
+            <marker date="1502353665038" expanded="true" signature="846:868" ph="SELECT * FRO... members" />
+            <marker date="1502353665038" expanded="true" signature="964:1011" ph="SELECT MAX(s... members" />
+            <marker date="1502353665038" expanded="true" signature="1423:1443" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="1423:1467" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="1635:1678" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="1838:1866" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="1838:1890" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="2086:2137" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="2337:2382" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="2555:2609" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="2811:2855" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="3017:3062" ph="SELECT * FRO... ideas" />
+            <marker date="1502353665038" expanded="true" signature="3950:4162" ph="INSERT INTO contributions... " />
+            <marker date="1502353665038" expanded="true" signature="4491:4567" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="4764:4850" ph="SELECT SUM(a... loans" />
+            <marker date="1502353665038" expanded="true" signature="5100:5128" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="5300:5322" ph="SELECT * FRO... members" />
+            <marker date="1502353665038" expanded="true" signature="6170:6540" ph="INSERT INTO ideas... " />
+            <marker date="1502353665038" expanded="true" signature="6847:6867" ph="SELECT * FRO... ideas" />
+            <marker date="1502353665038" expanded="true" signature="7553:7714" ph="INSERT INTO loans... " />
+            <marker date="1502353665038" expanded="true" signature="8030:8045" ph="SELECT * FRO... ideas" />
+            <marker date="1502353665038" expanded="true" signature="8030:8050" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="8208:8230" ph="SELECT * FRO... members" />
+            <marker date="1502353665038" expanded="true" signature="8680:8752" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8796" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8824" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8825" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8843" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8869" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8887" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8888" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8925" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8927" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8931" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="9547:9674" ph="INSERT INTO ideas... " />
+            <marker date="1502353665038" expanded="true" signature="10012:10140" ph="INSERT INTO ideas... " />
+            <marker date="1502353665038" expanded="true" signature="10489:10529" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="10489:10531" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="10680:10732" ph="UPDATE table... " />
+            <marker date="1502353665038" expanded="true" signature="10680:10738" ph="UPDATE contr... " />
+            <marker date="1502353665038" expanded="true" signature="11081:11123" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="11273:11328" ph="UPDATE contr... " />
+            <marker date="1502353665038" expanded="true" signature="11674:11708" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="11858:11907" ph="UPDATE contr... " />
+            <marker date="1502353665038" expanded="true" signature="12251:12285" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="12434:12480" ph="UPDATE contr... " />
+            <marker date="1502353665038" expanded="true" signature="12822:12856" ph="SELECT * FRO... ideas" />
+            <marker date="1502353665038" expanded="true" signature="13005:13053" ph="UPDATE loans... " />
+            <marker date="1502353665038" expanded="true" signature="13394:13428" ph="SELECT * FRO... ideas" />
+            <marker date="1502353665038" expanded="true" signature="13577:13623" ph="UPDATE ideas... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#85#0#PHP" expanded="true" />
-            <element signature="e#2265#4772#0#PHP" expanded="false" />
-            <element signature="e#4798#11645#0#PHP" expanded="false" />
-            <element signature="n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#19002#19008#0#HTML" expanded="true" />
-            <element signature="e#19010#19016#0#HTML" expanded="true" />
-            <element signature="e#19777#30447#0#PHP" expanded="false" />
-            <element signature="e#30473#35402#0#PHP" expanded="false" />
-            <marker date="1502111946533" expanded="true" signature="7297:7545" ph="..." />
-            <marker date="1502111946533" expanded="true" signature="7297:7632" ph="..." />
-            <marker date="1502111946533" expanded="true" signature="14320:14564" ph="..." />
-            <marker date="1502111946533" expanded="true" signature="14320:14591" ph="..." />
-            <marker date="1502111946533" expanded="true" signature="14320:14882" ph="..." />
-            <marker date="1502111946533" expanded="true" signature="14320:14884" ph="..." />
-            <marker date="1502111946533" expanded="true" signature="14320:15220" ph="..." />
-            <marker date="1502111946533" expanded="true" signature="14965:14971" ph=" " />
-            <marker date="1502111946533" expanded="true" signature="14973:14979" ph=" " />
-            <marker date="1502111946533" expanded="true" signature="18381:18645" ph="..." />
-            <marker date="1502111946533" expanded="true" signature="28956:29309" ph="..." />
-            <marker date="1502111946533" expanded="true" signature="28956:29901" ph="..." />
-            <marker date="1502111946533" expanded="true" signature="29587:29593" ph=" " />
-            <marker date="1502111946533" expanded="true" signature="29595:29601" ph=" " />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#10855#18492#0#PHP" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#22598#26598#0#PHP" expanded="false" />
+            <element signature="n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#26624#37616#0#PHP" expanded="false" />
+            <element signature="n#div#0;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1502350461219" expanded="true" signature="13430:13678" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="13430:13861" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="21167:21411" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="21167:21438" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="25228:25492" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="35943:36478" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="39228:39324" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="43246:43510" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="46800:47071" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="50882:51146" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="54433:54704" ph="..." />
           </folding>
         </state>
       </provider>
@@ -347,40 +880,57 @@
         <state relative-caret-position="682">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="6" />
           <folding>
-            <element signature="e#6#85#0#PHP" expanded="true" />
-            <marker date="1502111946298" expanded="true" signature="1101:1283" ph="INSERT INTO contributions... " />
-            <marker date="1502111946298" expanded="true" signature="1449:1471" ph="SELECT * FRO... members" />
-            <marker date="1502111946298" expanded="true" signature="1655:1731" ph="SELECT * FRO... loans" />
-            <marker date="1502111946298" expanded="true" signature="1968:1996" ph="SELECT * FRO... contributions" />
-            <marker date="1502111946298" expanded="true" signature="2168:2190" ph="SELECT * FRO... members" />
-            <marker date="1502111946298" expanded="true" signature="2360:2380" ph="SELECT * FRO... ideas" />
-            <marker date="1502111946298" expanded="true" signature="2899:3038" ph="INSERT INTO loans... " />
-            <marker date="1502111946298" expanded="true" signature="3279:3294" ph="SELECT * FRO... ideas" />
-            <marker date="1502111946298" expanded="true" signature="3279:3299" ph="SELECT * FRO... loans" />
-            <marker date="1502111946298" expanded="true" signature="3739:3797" ph="INSERT INTO members... " />
-            <marker date="1502111946298" expanded="true" signature="3739:3816" ph="INSERT INTO members... " />
-            <marker date="1502111946298" expanded="true" signature="3739:3819" ph="INSERT INTO members... " />
-            <marker date="1502111946298" expanded="true" signature="3739:3820" ph="INSERT INTO members... " />
-            <marker date="1502111946298" expanded="true" signature="3739:3839" ph="INSERT INTO members... " />
-            <marker date="1502111946298" expanded="true" signature="3739:3858" ph="INSERT INTO members... " />
-            <marker date="1502111946298" expanded="true" signature="4343:4460" ph="INSERT INTO idea... " />
-            <marker date="1502111946298" expanded="true" signature="4343:4462" ph="INSERT INTO idea... " />
-            <marker date="1502111946298" expanded="true" signature="4343:4469" ph="INSERT INTO idea... " />
-            <marker date="1502111946298" expanded="true" signature="4343:4471" ph="INSERT INTO idea... " />
-            <marker date="1502111946298" expanded="true" signature="4781:4821" ph="SELECT * FRO... contributions" />
-            <marker date="1502111946298" expanded="true" signature="4781:4823" ph="SELECT * FRO... contributions" />
-            <marker date="1502111946298" expanded="true" signature="4972:5024" ph="UPDATE table... " />
-            <marker date="1502111946298" expanded="true" signature="4972:5030" ph="UPDATE contr... " />
-            <marker date="1502111946298" expanded="true" signature="5373:5415" ph="SELECT * FRO... contributions" />
-            <marker date="1502111946298" expanded="true" signature="5565:5620" ph="UPDATE contr... " />
-            <marker date="1502111946298" expanded="true" signature="5966:6000" ph="SELECT * FRO... contributions" />
-            <marker date="1502111946298" expanded="true" signature="6150:6199" ph="UPDATE contr... " />
-            <marker date="1502111946298" expanded="true" signature="6543:6577" ph="SELECT * FRO... contributions" />
-            <marker date="1502111946298" expanded="true" signature="6726:6772" ph="UPDATE contr... " />
-            <marker date="1502111946298" expanded="true" signature="7114:7148" ph="SELECT * FRO... ideas" />
-            <marker date="1502111946298" expanded="true" signature="7297:7345" ph="UPDATE loans... " />
-            <marker date="1502111946298" expanded="true" signature="7686:7720" ph="SELECT * FRO... ideas" />
-            <marker date="1502111946298" expanded="true" signature="7869:7915" ph="UPDATE ideas... " />
+            <marker date="1502353665038" expanded="true" signature="621:707" ph="SELECT SUM(a... contributions" />
+            <marker date="1502353665038" expanded="true" signature="846:868" ph="SELECT * FRO... members" />
+            <marker date="1502353665038" expanded="true" signature="964:1011" ph="SELECT MAX(s... members" />
+            <marker date="1502353665038" expanded="true" signature="1423:1443" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="1423:1467" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="1635:1678" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="1838:1866" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="1838:1890" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="2086:2137" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="2337:2382" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="2555:2609" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="2811:2855" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="3017:3062" ph="SELECT * FRO... ideas" />
+            <marker date="1502353665038" expanded="true" signature="3950:4162" ph="INSERT INTO contributions... " />
+            <marker date="1502353665038" expanded="true" signature="4491:4567" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="4764:4850" ph="SELECT SUM(a... loans" />
+            <marker date="1502353665038" expanded="true" signature="5100:5128" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="5300:5322" ph="SELECT * FRO... members" />
+            <marker date="1502353665038" expanded="true" signature="6170:6540" ph="INSERT INTO ideas... " />
+            <marker date="1502353665038" expanded="true" signature="6847:6867" ph="SELECT * FRO... ideas" />
+            <marker date="1502353665038" expanded="true" signature="7553:7714" ph="INSERT INTO loans... " />
+            <marker date="1502353665038" expanded="true" signature="8030:8045" ph="SELECT * FRO... ideas" />
+            <marker date="1502353665038" expanded="true" signature="8030:8050" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="8208:8230" ph="SELECT * FRO... members" />
+            <marker date="1502353665038" expanded="true" signature="8680:8752" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8796" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8824" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8825" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8843" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8869" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8887" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8888" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8925" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8927" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8931" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="9547:9674" ph="INSERT INTO ideas... " />
+            <marker date="1502353665038" expanded="true" signature="10012:10140" ph="INSERT INTO ideas... " />
+            <marker date="1502353665038" expanded="true" signature="10489:10529" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="10489:10531" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="10680:10732" ph="UPDATE table... " />
+            <marker date="1502353665038" expanded="true" signature="10680:10738" ph="UPDATE contr... " />
+            <marker date="1502353665038" expanded="true" signature="11081:11123" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="11273:11328" ph="UPDATE contr... " />
+            <marker date="1502353665038" expanded="true" signature="11674:11708" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="11858:11907" ph="UPDATE contr... " />
+            <marker date="1502353665038" expanded="true" signature="12251:12285" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="12434:12480" ph="UPDATE contr... " />
+            <marker date="1502353665038" expanded="true" signature="12822:12856" ph="SELECT * FRO... ideas" />
+            <marker date="1502353665038" expanded="true" signature="13005:13053" ph="UPDATE loans... " />
+            <marker date="1502353665038" expanded="true" signature="13394:13428" ph="SELECT * FRO... ideas" />
+            <marker date="1502353665038" expanded="true" signature="13577:13623" ph="UPDATE ideas... " />
           </folding>
         </state>
       </provider>
@@ -397,90 +947,108 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/bootstrap./js/npm.js" />
-    <entry file="file://$PROJECT_DIR$/styles.css">
+    <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1452">
-          <caret line="66" column="1" lean-forward="false" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="480">
+          <caret line="193" column="52" lean-forward="true" selection-start-line="193" selection-start-column="52" selection-end-line="193" selection-end-column="52" />
+          <folding>
+            <marker date="1502353665038" expanded="true" signature="621:707" ph="SELECT SUM(a... contributions" />
+            <marker date="1502353665038" expanded="true" signature="846:868" ph="SELECT * FRO... members" />
+            <marker date="1502353665038" expanded="true" signature="964:1011" ph="SELECT MAX(s... members" />
+            <marker date="1502353665038" expanded="true" signature="1423:1443" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="1423:1467" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="1635:1678" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="1838:1866" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="1838:1890" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="2086:2137" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="2337:2382" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="2555:2609" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="2811:2855" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="3017:3062" ph="SELECT * FRO... ideas" />
+            <marker date="1502353665038" expanded="true" signature="3950:4162" ph="INSERT INTO contributions... " />
+            <marker date="1502353665038" expanded="true" signature="4491:4567" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="4764:4850" ph="SELECT SUM(a... loans" />
+            <marker date="1502353665038" expanded="true" signature="5100:5128" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="5300:5322" ph="SELECT * FRO... members" />
+            <marker date="1502353665038" expanded="true" signature="6170:6540" ph="INSERT INTO ideas... " />
+            <marker date="1502353665038" expanded="true" signature="6847:6867" ph="SELECT * FRO... ideas" />
+            <marker date="1502353665038" expanded="true" signature="7553:7714" ph="INSERT INTO loans... " />
+            <marker date="1502353665038" expanded="true" signature="8030:8045" ph="SELECT * FRO... ideas" />
+            <marker date="1502353665038" expanded="true" signature="8030:8050" ph="SELECT * FRO... loans" />
+            <marker date="1502353665038" expanded="true" signature="8208:8230" ph="SELECT * FRO... members" />
+            <marker date="1502353665038" expanded="true" signature="8680:8752" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8796" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8824" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8825" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8843" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8869" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8887" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8888" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8925" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8927" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="8680:8931" ph="INSERT INTO members... " />
+            <marker date="1502353665038" expanded="true" signature="9547:9674" ph="INSERT INTO ideas... " />
+            <marker date="1502353665038" expanded="true" signature="10012:10140" ph="INSERT INTO ideas... " />
+            <marker date="1502353665038" expanded="true" signature="10489:10529" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="10489:10531" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="10680:10732" ph="UPDATE table... " />
+            <marker date="1502353665038" expanded="true" signature="10680:10738" ph="UPDATE contr... " />
+            <marker date="1502353665038" expanded="true" signature="11081:11123" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="11273:11328" ph="UPDATE contr... " />
+            <marker date="1502353665038" expanded="true" signature="11674:11708" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="11858:11907" ph="UPDATE contr... " />
+            <marker date="1502353665038" expanded="true" signature="12251:12285" ph="SELECT * FRO... contributions" />
+            <marker date="1502353665038" expanded="true" signature="12434:12480" ph="UPDATE contr... " />
+            <marker date="1502353665038" expanded="true" signature="12822:12856" ph="SELECT * FRO... ideas" />
+            <marker date="1502353665038" expanded="true" signature="13005:13053" ph="UPDATE loans... " />
+            <marker date="1502353665038" expanded="true" signature="13394:13428" ph="SELECT * FRO... ideas" />
+            <marker date="1502353665038" expanded="true" signature="13577:13623" ph="UPDATE ideas... " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="317" column="55" lean-forward="true" selection-start-line="317" selection-start-column="55" selection-end-line="317" selection-end-column="55" />
+        <state relative-caret-position="2134">
+          <caret line="193" column="0" lean-forward="false" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
           <folding>
             <element signature="e#6#85#0#PHP" expanded="true" />
-            <element signature="e#2265#4772#0#PHP" expanded="false" />
-            <element signature="e#4798#11645#0#PHP" expanded="false" />
-            <element signature="n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#19002#19008#0#HTML" expanded="true" />
-            <element signature="e#19010#19016#0#HTML" expanded="true" />
-            <element signature="e#19777#30447#0#PHP" expanded="false" />
-            <element signature="e#30473#35402#0#PHP" expanded="false" />
-            <marker date="1502111946533" expanded="true" signature="7297:7545" ph="..." />
-            <marker date="1502111946533" expanded="true" signature="7297:7632" ph="..." />
-            <marker date="1502111946533" expanded="true" signature="14320:14564" ph="..." />
-            <marker date="1502111946533" expanded="true" signature="14320:14591" ph="..." />
-            <marker date="1502111946533" expanded="true" signature="14320:14882" ph="..." />
-            <marker date="1502111946533" expanded="true" signature="14320:14884" ph="..." />
-            <marker date="1502111946533" expanded="true" signature="14320:15220" ph="..." />
-            <marker date="1502111946533" expanded="true" signature="14965:14971" ph=" " />
-            <marker date="1502111946533" expanded="true" signature="14973:14979" ph=" " />
-            <marker date="1502111946533" expanded="true" signature="18381:18645" ph="..." />
-            <marker date="1502111946533" expanded="true" signature="28956:29309" ph="..." />
-            <marker date="1502111946533" expanded="true" signature="28956:29901" ph="..." />
-            <marker date="1502111946533" expanded="true" signature="29587:29593" ph=" " />
-            <marker date="1502111946533" expanded="true" signature="29595:29601" ph=" " />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#10855#18492#0#PHP" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#22598#26598#0#PHP" expanded="false" />
+            <element signature="n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#26624#37616#0#PHP" expanded="false" />
+            <element signature="n#div#0;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1502350461219" expanded="true" signature="13430:13678" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="13430:13861" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="21167:21411" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="21167:21438" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="25228:25492" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="35943:36478" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="39228:39324" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="43246:43510" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="46800:47071" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="50882:51146" ph="..." />
+            <marker date="1502350461219" expanded="true" signature="54433:54704" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
+    <entry file="file://$PROJECT_DIR$/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="256" column="15" lean-forward="false" selection-start-line="256" selection-start-column="15" selection-end-line="256" selection-end-column="31" />
-          <folding>
-            <element signature="e#6#85#0#PHP" expanded="true" />
-            <marker date="1502111946298" expanded="true" signature="1101:1283" ph="INSERT INTO contributions... " />
-            <marker date="1502111946298" expanded="true" signature="1449:1471" ph="SELECT * FRO... members" />
-            <marker date="1502111946298" expanded="true" signature="1655:1731" ph="SELECT * FRO... loans" />
-            <marker date="1502111946298" expanded="true" signature="1968:1996" ph="SELECT * FRO... contributions" />
-            <marker date="1502111946298" expanded="true" signature="2168:2190" ph="SELECT * FRO... members" />
-            <marker date="1502111946298" expanded="true" signature="2360:2380" ph="SELECT * FRO... ideas" />
-            <marker date="1502111946298" expanded="true" signature="2899:3038" ph="INSERT INTO loans... " />
-            <marker date="1502111946298" expanded="true" signature="3279:3294" ph="SELECT * FRO... ideas" />
-            <marker date="1502111946298" expanded="true" signature="3279:3299" ph="SELECT * FRO... loans" />
-            <marker date="1502111946298" expanded="true" signature="3739:3797" ph="INSERT INTO members... " />
-            <marker date="1502111946298" expanded="true" signature="3739:3816" ph="INSERT INTO members... " />
-            <marker date="1502111946298" expanded="true" signature="3739:3819" ph="INSERT INTO members... " />
-            <marker date="1502111946298" expanded="true" signature="3739:3820" ph="INSERT INTO members... " />
-            <marker date="1502111946298" expanded="true" signature="3739:3839" ph="INSERT INTO members... " />
-            <marker date="1502111946298" expanded="true" signature="3739:3858" ph="INSERT INTO members... " />
-            <marker date="1502111946298" expanded="true" signature="4343:4460" ph="INSERT INTO idea... " />
-            <marker date="1502111946298" expanded="true" signature="4343:4462" ph="INSERT INTO idea... " />
-            <marker date="1502111946298" expanded="true" signature="4343:4469" ph="INSERT INTO idea... " />
-            <marker date="1502111946298" expanded="true" signature="4343:4471" ph="INSERT INTO idea... " />
-            <marker date="1502111946298" expanded="true" signature="4781:4821" ph="SELECT * FRO... contributions" />
-            <marker date="1502111946298" expanded="true" signature="4781:4823" ph="SELECT * FRO... contributions" />
-            <marker date="1502111946298" expanded="true" signature="4972:5024" ph="UPDATE table... " />
-            <marker date="1502111946298" expanded="true" signature="4972:5030" ph="UPDATE contr... " />
-            <marker date="1502111946298" expanded="true" signature="5373:5415" ph="SELECT * FRO... contributions" />
-            <marker date="1502111946298" expanded="true" signature="5565:5620" ph="UPDATE contr... " />
-            <marker date="1502111946298" expanded="true" signature="5966:6000" ph="SELECT * FRO... contributions" />
-            <marker date="1502111946298" expanded="true" signature="6150:6199" ph="UPDATE contr... " />
-            <marker date="1502111946298" expanded="true" signature="6543:6577" ph="SELECT * FRO... contributions" />
-            <marker date="1502111946298" expanded="true" signature="6726:6772" ph="UPDATE contr... " />
-            <marker date="1502111946298" expanded="true" signature="7114:7148" ph="SELECT * FRO... ideas" />
-            <marker date="1502111946298" expanded="true" signature="7297:7345" ph="UPDATE loans... " />
-            <marker date="1502111946298" expanded="true" signature="7686:7720" ph="SELECT * FRO... ideas" />
-            <marker date="1502111946298" expanded="true" signature="7869:7915" ph="UPDATE ideas... " />
-          </folding>
+        <state relative-caret-position="157">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>

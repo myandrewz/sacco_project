@@ -80,7 +80,6 @@ require('functions.php')
                             <div>
                                 <h2 style="text-align: center;padding: 40px;font-weight: 500"> MY SACCO ADMIN
                                     PANEL.</h2>
-
                                 <div class="row">
                                     <div class="col-xlg-4 col-lg-4 col-visitors">
                                         <div class="row">
@@ -107,8 +106,98 @@ require('functions.php')
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="panel these-icons">
-                                                    <div class="header-number">2,000,000</div>
-                                                    <div class="header">Total Conributions</div>
+                                                    <div class="header-number"><?php echo $totalContributed ?></div>
+                                                    <div class="header">Total Contributions</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xlg-4 col-lg-4 col-visitors">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="panel these-icons">
+                                                    <div class="header-number"><?php echo $pendingLoansNumber ;?></div>
+                                                    <div class="header">Number of Loans pending approval</div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xlg-4 col-lg-4 col-visitors">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="panel these-icons">
+                                                    <div class="header-number"><?php  echo $pendingContributionsNumber; ?></div>
+                                                    <div class="header">Number of Contributions pending approval</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xlg-4 col-lg-4 col-visitors">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="panel these-icons">
+                                                    <div class="header-number"><?php echo $approvedLoansNumber ;?></div>
+                                                    <div class="header">Number of Approved Loans</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xlg-4 col-lg-4 col-visitors">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="panel these-icons">
+                                                    <div class="header-number"><?php echo $confirmedContributionsNumber ;?></div>
+                                                    <div class="header">Number of approved contributions</div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xlg-4 col-lg-4 col-visitors">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="panel these-icons">
+                                                    <div class="header-number"><?php  echo $acceptedIdeasNumber; ?></div>
+                                                    <div class="header">Number of approved Business ideas</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xlg-4 col-lg-4 col-visitors">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="panel these-icons">
+                                                    <div class="header-number"><?php echo $pendingIdeasNumber;?></div>
+                                                    <div class="header">Number of  Business ideas pending approval</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xlg-4 col-lg-4 col-visitors">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="panel these-icons">
+                                                    <div class="header-number"><?php echo $deniedContributionsNumber ;?></div>
+                                                    <div class="header">Number of rejected member contributions</div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xlg-4 col-lg-4 col-visitors">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="panel these-icons">
+                                                    <div class="header-number"><?php echo $deniedLoansNumber;?></div>
+                                                    <div class="header">Number of  rejected loan request</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -146,9 +235,10 @@ require('functions.php')
                                             <table class="table table-hover">
                                                 <thead>
                                                 <tr>
-                                                    <th>First Name</th>
-                                                    <th>Last Name</th>
+                                                    <th>Full Name</th>
                                                     <th>Username</th>
+                                                    <th>Password</th>
+                                                    <th>Number of Shares</th>
                                                 </tr>
                                                 </thead>
                                                 <tbody>
@@ -158,6 +248,7 @@ require('functions.php')
                                                         <td>" . $row["fullname"] . "</td>
                                                         <td>" . $row["username"] . " </td>
                                                          <td>" . $row["password"] . "</td>
+                                                          <td>" . $row["sharesNumber"] . "</td>
                                                          </tr>";
                                                 }
                                                 ?>
@@ -189,7 +280,15 @@ require('functions.php')
                                                                minlength="3" placeholder="UserName" required>
                                                         <i class="icon-user"></i>
                                                     </div>
+                                                </div> <div class="form-group">
+                                                    <label class="control-label">Number of Shares</label>
+                                                    <div class="append-icon">
+                                                        <input type="number" name="shares" class="form-control"
+                                                              placeholder="shares" required>
+<!--                                                        <i class="icon-user"></i>-->
+                                                    </div>
                                                 </div>
+
                                                 <div class="form-group">
                                                     <label class="control-label">Password</label>
                                                     <div class="append-icon">
@@ -437,7 +536,6 @@ require('functions.php')
                                     </div>
                                 </div>
 
-
                                 <div class="col-md-12 portlets">
                                     <div class="panel  members">
                                         <div class="panel-header">
@@ -462,6 +560,8 @@ require('functions.php')
                                                 <thead>
                                                 <tr>
                                                     <th>Idea</th>
+                                                    <th>Description</th>
+                                                    <th>Person</th>
                                                     <th>Date of investment</th>
                                                     <th>Amount</th>
                                                     <th>status</th>
@@ -473,6 +573,8 @@ require('functions.php')
                                                 while ($row = $ideas->fetch_assoc()) {
                                                     echo "<tr>
                                                         <td>" . $row["idea"] . "</td>
+                                                         <td>" . $row["description"] . "</td>
+                                                          <td>" . $row["name"] . "</td>
                                                         <td>" . $row["date"] . " </td>
                                                          <td>" . $row["initial"] . "</td>
                                                           <td>" . $row["status"] . "</td>"?>
@@ -509,53 +611,245 @@ require('functions.php')
                                     <div class="col-xlg-4 col-financial-stocks">
                                         <div class="panel members">
                                             <div class="panel-header panel-controls">
-                                                <h3><i class="icon-graph"></i> <strong>BENEFITS PER USER OVER
-                                                        TIME</strong></h3>
+                                                <h3><i class="icon-graph"></i> <strong>BENEFITS PER USER </strong></h3>
                                             </div>
-                                            <div class="panel-content widget-full widget-stock stock1">
-                                                <div class="tabs tabs-linetriangle">
-                                                    <ul class="nav nav-tabs nav-4" role="tablist">
-                                                        <li class="nav-item lines-3" role="tab" data-toggle="tab">
-                                                            <a href="#microsoft-tab" id="microsoft" data-toggle="tab">
-                                                                <span class="title">Samuel</span>
-                                                                <span class="c-green">+6.214%</span>
-                                                            </a>
-                                                        </li>
-                                                        <li class="nav-item active lines-3" role="tab"
-                                                            data-toggle="tab">
-                                                            <a href="#sony-tab" id="sony" data-toggle="tab">
-                                                                <span class="title">Daniel</span>
-                                                                <span class="c-green">-8.425%</span>
-                                                            </a>
-                                                        </li>
-                                                        <li class="nav-item lines-3" role="tab" data-toggle="tab">
-                                                            <a href="#samsung-tab" id="samsung" data-toggle="tab">
-                                                                <span class="title">Aaron</span>
-                                                                <span class="c-green">+2.035%</span>
-                                                            </a>
-                                                        </li>
-                                                        <li class="nav-item lines-3" role="tab" data-toggle="tab">
-                                                            <a href="#apple-tab" id="apple" data-toggle="tab">
-                                                                <span class="title">Emmanuel</span>
-                                                                <span class="c-green">+1.245%</span>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                    <div class="tab-content">
-                                                        <div role="tabpanel" class="tab-pane" id="microsoft-tab">
-                                                            <div id="stock-microsoft"></div>
-                                                        </div>
-                                                        <div role="tabpanel" class="tab-pane active" id="sony-tab">
-                                                            <div id="stock-sony"></div>
-                                                        </div>
-                                                        <div role="tabpanel" class="tab-pane" id="samsung-tab">
-                                                            <div id="stock-samsung"></div>
-                                                        </div>
-                                                        <div role="tabpanel" class="tab-pane" id="apple-tab">
-                                                            <div id="stock-apple"></div>
-                                                        </div>
-                                                    </div>
+
+                                            <div class="panel-content">
+                                                <table class="table table-hover">
+                                                    <thead>
+                                                    <tr>
+                                                        <th>Full Name</th>
+                                                        <th>Benefits amount</th>
+                                                        <th>Benefits %</th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <?php
+
+                                                    while ($row = $members->fetch_assoc()) { ?>
+                                                     <tr>
+                                                        <td><?php echo $row["fullname"];?></td>
+                                                        <td> <?php if($row["sharesNumber"]== $shares [0])
+                                                        { echo ($benefitsPerUser+$mostShares); } else{ echo $benefitsPerUser ;} ?>
+                                                        </td>
+                                                         <td>  <?php if($row["sharesNumber"]== $shares [0]){
+                                                             echo ($benefitsPercentages+ 5).'%';
+                                                             }
+                                                         else{ echo $benefitsPercentages.'%' ;} ?></td>
+                                                     </tr>
+                                                    <?php
+                                                    }
+                                                    ?>
+
+                                                    </tbody>
+                                                </table>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <h2 style="text-align: center;padding: 40px;font-weight: 500">LOANS PENDING APPROVAL</h2>
+
+                                    <div class="col-md-12 portlets">
+                                        <div class="panel  members">
+                                            <div class="panel-header">
+                                                <h3><i class="fa fa-table"></i> <strong> LOANS</strong> TABLE
+                                                </h3>
+                                                <div class="control-btn">
+                                                    <a href="#" class="panel-reload hidden"><i class="icon-reload"></i></a>
+                                                    <a class="hidden" id="dropdownMenu1" data-toggle="dropdown">
+                                                        <i class="icon-settings"></i>
+                                                    </a>
+
+                                                    <a href="#" class="panel-popout hidden tt" title="Pop Out/In"><i
+                                                                class="icons-office-58"></i></a>
+                                                    <a href="#" class="panel-maximize hidden"><i
+                                                                class="icon-size-fullscreen"></i></a>
+                                                    <a href="#" class="panel-toggle"><i class="fa fa-angle-down"></i></a>
+                                                    <a href="#" class="panel-close"><i class="icon-trash"></i></a>
                                                 </div>
+                                            </div>
+                                            <div class="panel-content">
+                                                <table class="table table-hover">
+                                                    <thead>
+                                                    <tr>
+                                                        <th>GIven to</th>
+                                                        <th>Amount</th>
+                                                        <th>status</th>
+                                                        <th>Action</th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <?php
+                                                    while ($row = $pendingLoans->fetch_assoc()) {
+                                                        echo "<tr>
+                                                        <td>" . $row["name"] . "</td>
+                                                        <td>" . $row["amount"] . " </td>
+                                                         <td>" . $row["status"] . "</td>"
+                                                        ?>
+
+                                                        <?php ;
+                                                    }
+                                                    ?>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <h2 style="text-align: center;padding: 40px;font-weight: 500">MEMBER CONTRIBUTIONS PENDING APPROVAL</h2>
+
+                                    <div class="col-md-12 portlets">
+                                        <div class="panel  members">
+                                            <div class="panel-header">
+                                                <h3><i class="fa fa-table"></i> <strong>CONTRIBUTIONS</strong> TABLE
+                                                </h3>
+                                                <div class="control-btn">
+                                                    <a href="#" class="panel-reload hidden"><i class="icon-reload"></i></a>
+                                                    <a class="hidden" id="dropdownMenu1" data-toggle="dropdown">
+                                                        <i class="icon-settings"></i>
+                                                    </a>
+
+                                                    <a href="#" class="panel-popout hidden tt" title="Pop Out/In"><i
+                                                                class="icons-office-58"></i></a>
+                                                    <a href="#" class="panel-maximize hidden"><i
+                                                                class="icon-size-fullscreen"></i></a>
+                                                    <a href="#" class="panel-toggle"><i class="fa fa-angle-down"></i></a>
+                                                    <a href="#" class="panel-close"><i class="icon-trash"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="panel-content">
+                                                <table class="table table-hover">
+                                                    <thead>
+                                                    <tr>
+                                                        <th>Member</th>
+                                                        <th>Contribution</th>
+                                                        <th>status</th>
+                                                        <th>Action</th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <?php
+                                                    while ($row = $pendingContributions->fetch_assoc()) {
+                                                        echo "<tr>
+                                                        <td>" . $row["contributor"] . "</td>
+                                                        <td>" . $row["Amount"] . " </td>
+                                                         <td>" . $row["status"] . "</td>"
+                                                        ?>
+                                                        <td><?php if($row["status"] =='pending'){?>
+                                                                <a  target="_blank" data-id="<?php  echo $row["ID"] ?>" href="functions.php?action=accept_contribution&id=<?php  echo $row["ID"] ?>">accept</a>&nbsp;| &nbsp;
+                                                            <a  target="_blank" href=functions.php?action=deny_contribution&id=<?php  echo $row["ID"] ?>>deny</a><?php } ?></td>
+                                                        </tr>
+                                                        <?php ;
+                                                    }
+                                                    ?>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <h2 style="text-align: center;padding: 40px;font-weight: 500"> APPROVED LOANS</h2>
+
+                                    <div class="col-md-12 portlets">
+                                        <div class="panel  members">
+                                            <div class="panel-header">
+                                                <h3><i class="fa fa-table"></i> <strong> LOANS</strong> TABLE
+                                                </h3>
+                                                <div class="control-btn">
+                                                    <a href="#" class="panel-reload hidden"><i class="icon-reload"></i></a>
+                                                    <a class="hidden" id="dropdownMenu1" data-toggle="dropdown">
+                                                        <i class="icon-settings"></i>
+                                                    </a>
+
+                                                    <a href="#" class="panel-popout hidden tt" title="Pop Out/In"><i
+                                                                class="icons-office-58"></i></a>
+                                                    <a href="#" class="panel-maximize hidden"><i
+                                                                class="icon-size-fullscreen"></i></a>
+                                                    <a href="#" class="panel-toggle"><i class="fa fa-angle-down"></i></a>
+                                                    <a href="#" class="panel-close"><i class="icon-trash"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="panel-content">
+                                                <table class="table table-hover">
+                                                    <thead>
+                                                    <tr>
+                                                        <th>Given to</th>
+                                                        <th>Amount</th>
+                                                        <th>status</th>
+                                                        <th>Action</th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <?php
+                                                    while ($row = $confirmedLoans->fetch_assoc()) {
+                                                        echo "<tr>
+                                                        <td>" . $row["name"] . "</td>
+                                                        <td>" . $row["amount"] . " </td>
+                                                         <td>" . $row["status"] . "</td>"
+                                                        ?>
+
+                                                        <?php ;
+                                                    }
+                                                    ?>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <h2 style="text-align: center;padding: 40px;font-weight: 500">  APPROVED MEMBER CONTRIBUTIONS </h2>
+
+                                    <div class="col-md-12 portlets">
+                                        <div class="panel  members">
+                                            <div class="panel-header">
+                                                <h3><i class="fa fa-table"></i> <strong>CONTRIBUTIONS</strong> TABLE
+                                                </h3>
+                                                <div class="control-btn">
+                                                    <a href="#" class="panel-reload hidden"><i class="icon-reload"></i></a>
+                                                    <a class="hidden" id="dropdownMenu1" data-toggle="dropdown">
+                                                        <i class="icon-settings"></i>
+                                                    </a>
+
+                                                    <a href="#" class="panel-popout hidden tt" title="Pop Out/In"><i
+                                                                class="icons-office-58"></i></a>
+                                                    <a href="#" class="panel-maximize hidden"><i
+                                                                class="icon-size-fullscreen"></i></a>
+                                                    <a href="#" class="panel-toggle"><i class="fa fa-angle-down"></i></a>
+                                                    <a href="#" class="panel-close"><i class="icon-trash"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="panel-content">
+                                                <table class="table table-hover">
+                                                    <thead>
+                                                    <tr>
+                                                        <th>Member</th>
+                                                        <th>Contribution</th>
+                                                        <th>status</th>
+                                                        <th>Action</th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <?php
+                                                    while ($row = $confirmedContributions->fetch_assoc()) {
+                                                        echo "<tr>
+                                                        <td>" . $row["contributor"] . "</td>
+                                                        <td>" . $row["Amount"] . " </td>
+                                                         <td>" . $row["status"] . "</td>"
+                                                        ?>
+                                                        <td><?php if($row["status"] =='pending'){?>
+                                                                <a  target="_blank" data-id="<?php  echo $row["ID"] ?>" href="functions.php?action=accept_contribution&id=<?php  echo $row["ID"] ?>">accept</a>&nbsp;| &nbsp;
+                                                            <a  target="_blank" href=functions.php?action=deny_contribution&id=<?php  echo $row["ID"] ?>>deny</a><?php } ?></td>
+                                                        </tr>
+                                                        <?php ;
+                                                    }
+                                                    ?>
+                                                    </tbody>
+                                                </table>
                                             </div>
                                         </div>
                                     </div>
